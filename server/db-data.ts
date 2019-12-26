@@ -1,246 +1,106 @@
 export const COURSES: any = {
 
-  12: {
-    id: 12,
-    titles: {
-      description: 'Angular Testing Course',
-      longDescription: 'In-depth guide to Unit Testing and E2E Testing of Angular Applications'
-    },
-    iconUrl: 'https://s3-us-west-1.amazonaws.com/angular-university/course-images/angular-testing-small.png',
-    category: 'BEGINNER',
-    seqNo: 0,
-    url: 'angular-testing-course',
-    lessonsCount: 10,
-  },
 
   2: {
     id: 2,
     titles: {
-      description: 'Angular Core Deep Dive',
-      longDescription: 'A detailed walk-through of the most important part of Angular - the Core and Common modules'
+      description: 'Pasta Carbonara',
+      longDescription: 'Discover how to make superb spaghetti carbonara. This cheesy pasta dish is an Italian favourite and with the right technique, you can make it perfect every time'
     },
-    iconUrl: 'https://s3-us-west-1.amazonaws.com/angular-university/course-images/angular-core-in-depth-small.png',
+    iconUrl: 'https://www.eatwell.co.nz/images/recipes/21082011HOSSpaghettiCarbonara.jpg?width=603&height=339&mode=crop&upscale=false',
     lessonsCount: 10,
     category: 'BEGINNER',
     seqNo: 1,
-    url: 'angular-core-course'
+    url: 'pasta-carbonara'
+    //url: 'angular-core-course'
   },
 
   3: {
     id: 3,
     titles: {
-      description: 'RxJs In Practice Course',
-      longDescription: 'Understand the RxJs Observable pattern, learn the RxJs Operators via practical examples'
+      description: 'Original Grilled Cheese Sandwich',
+      longDescription: 'This gourmet grilled cheese sandwich recipe is so easy to make at home! Make it when the craving strikes, and it will become your new favorite.'
     },
-    iconUrl: 'https://s3-us-west-1.amazonaws.com/angular-university/course-images/rxjs-in-practice-course.png',
-    courseListIcon: 'https://angular-academy.s3.amazonaws.com/main-logo/main-page-logo-small-hat.png',
+    iconUrl: 'https://image.businessinsider.com/5ad50664146e712b008b4ac2?width=1100&format=jpeg&auto=webp',
     category: 'BEGINNER',
     lessonsCount: 10,
     seqNo: 2,
-    url: 'rxjs-course'
+    url: 'grilled-cheese'
+    //url: 'rxjs-course'
   },
 
-  4: {
-    id: 4,
-    titles: {
-      description: 'NgRx In Depth',
-      longDescription: 'Learn the modern Ngrx Ecosystem, including Store, Effects, Router Store, Ngrx Entity, Dev Tools and Schematics.'
-    },
-    iconUrl: 'https://s3-us-west-1.amazonaws.com/angular-university/course-images/angular-ngrx-course.png',
-    courseListIcon: 'https://angular-academy.s3.amazonaws.com/main-logo/main-page-logo-small-hat.png',
-    category: 'BEGINNER',
-    lessonsCount: 10,
-    seqNo: 3,
-    url: 'ngrx-course'
-  },
+
 
   1: {
     id: 1,
     titles: {
-      description: 'Serverless Angular with Firebase Course',
-      longDescription: 'Serveless Angular with Firestore, Firebase Storage & Hosting, Firebase Cloud Functions & AngularFire'
+      description: 'Perfect Fried Eggs',
+      longDescription: 'These fried eggs have golden, lacy, crispy edges, which contrast beautifully with their runny yellow yolks. Contrast is everything!'
     },
-    iconUrl: 'https://s3-us-west-1.amazonaws.com/angular-university/course-images/serverless-angular-small.png',
+    iconUrl: 'https://iamafoodblog.com/wp-content/uploads/2019/01/how-to-make-crispy-fried-eggs-5729w.jpg',
     lessonsCount: 10,
     category: 'BEGINNER',
     seqNo: 4,
-    url: 'serverless-angular'
+    url: 'perfect-fried-eggs'
+   // url: 'serverless-angular'
   },
 
-  5: {
-    id: 5,
-    titles: {
-      description: 'Angular for Beginners',
-      longDescription: 'Establish a solid layer of fundamentals, learn what\'s under the hood of Angular'
-    },
-    iconUrl: 'https://angular-academy.s3.amazonaws.com/thumbnails/angular2-for-beginners-small-v2.png',
-    courseListIcon: 'https://angular-academy.s3.amazonaws.com/main-logo/main-page-logo-small-hat.png',
-    category: 'BEGINNER',
-    lessonsCount: 10,
-    seqNo: 5,
-    url: 'angular-for-beginners'
-  },
+
 
   6: {
     id: 6,
     titles: {
-      description: 'Angular Security Course - Web Security Fundamentals',
-      longDescription: 'Learn Web Security Fundamentals and apply them to defend an Angular / Node Application from multiple types of attacks.'
+      description: 'Cinnamon Rolls',
+      longDescription: 'The best homemade cinnamon rolls ever! If you love gooey cinnamon buns, here’s the secret ingredient. Everyone raves about these homemade yeast rolls.'
     },
-    iconUrl: 'https://s3-us-west-1.amazonaws.com/angular-university/course-images/security-cover-small-v2.png',
-    courseListIcon: 'https://s3-us-west-1.amazonaws.com/angular-university/course-images/lock-v2.png',
+    iconUrl: 'https://images-gmi-pmc.edge-generalmills.com/473d320b-fa9f-43fb-8fde-410b450dd328.jpg',
     category: 'ADVANCED',
     lessonsCount: 11,
     seqNo: 6,
-    url: 'angular-security-course'
+    url: 'cinnamon-rolls'
+    //url: 'angular-security-course'
   },
 
   7: {
     id: 7,
     titles: {
-      description: 'Angular PWA - Progressive Web Apps Course',
-      longDescription: 'Learn Angular Progressive Web Applications, build the future of the Web Today.'
+      description: 'Beef Wellington',
+      longDescription: 'Beef Wellington celebrates the luxurious and very tender fillet of beef and is one of those ultimate blowout dishes that hits the right spot several times in one meal.'
     },
-    iconUrl: 'https://s3-us-west-1.amazonaws.com/angular-university/course-images/angular-pwa-course.png',
-    courseListIcon: 'https://s3-us-west-1.amazonaws.com/angular-university/course-images/alien.png',
+    iconUrl: 'https://ichef.bbci.co.uk/food/ic/food_16x9_832/recipes/beef_wellington_with_35577_16x9.jpg',
     category: 'ADVANCED',
     lessonsCount: 8,
     seqNo: 7,
-    url: 'angular-pwa-course'
+    url: 'beef-wellington'
+    //url: 'angular-pwa-course'
   },
 
   8: {
     id: 8,
     titles: {
-      description: 'Angular Advanced Library Laboratory: Build Your Own Library',
-      longDescription: 'Learn Advanced Angular functionality typically used in Library Development. Advanced Components, Directives, Testing, Npm'
+      description: 'Fudgey Chocolate Brownies',
+      longDescription: 'The best, fudgy one bowl cocoa brownies! a special addition gives these brownies a super fudgy centre without losing that crispy, crackly top!'
     },
-    iconUrl: 'https://angular-academy.s3.amazonaws.com/thumbnails/advanced_angular-small-v3.png',
-    courseListIcon: 'https://angular-academy.s3.amazonaws.com/thumbnails/angular-advanced-lesson-icon.png',
+    iconUrl: 'https://i.ytimg.com/vi/A82HlaPTzjk/maxresdefault.jpg',
     category: 'ADVANCED',
     seqNo: 8,
-    url: 'angular-advanced-course'
-  },
-
-  9: {
-    id: 9,
-    titles: {
-      description: 'The Complete Typescript Course',
-      longDescription: 'Complete Guide to Typescript From Scratch: Learn the language in-depth and use it to build a Node REST API.'
-    },
-    iconUrl: 'https://angular-academy.s3.amazonaws.com/thumbnails/typescript-2-small.png',
-    courseListIcon: 'https://angular-academy.s3.amazonaws.com/thumbnails/typescript-2-lesson.png',
-    category: 'BEGINNER',
-    seqNo: 9,
-    url: 'typescript-course'
-  },
-
-  10: {
-    id: 10,
-    titles: {
-      description: 'Rxjs and Reactive Patterns Angular Architecture Course',
-      longDescription: 'Learn the core RxJs Observable Pattern as well and many other Design Patterns for building Reactive Angular Applications.'
-    },
-    iconUrl: 'https://s3-us-west-1.amazonaws.com/angular-academy/blog/images/rxjs-reactive-patterns-small.png',
-    courseListIcon: 'https://angular-academy.s3.amazonaws.com/course-logos/observables_rxjs.png',
-    category: 'BEGINNER',
-    seqNo: 10,
-    url: 'rxjs-patterns-course'
-  },
-
-  11: {
-    id: 11,
-    titles: {
-      description: 'Angular Material Course',
-      longDescription: 'Build Applications with the official Angular Widget Library'
-    },
-    iconUrl: 'https://s3-us-west-1.amazonaws.com/angular-university/course-images/material_design.png',
-    category: 'BEGINNER',
-    seqNo: 11,
-    url: 'angular-material-course'
+    url: 'fudgey-brownies'
+    //url: 'angular-advanced-course'
   }
+
 
 };
 
 
 export const LESSONS = {
 
-  1: {
-    id: 1,
-    'description': 'Angular Tutorial For Beginners - Build Your First App - Hello World Step By Step',
-    'duration': '4:17',
-    'seqNo': 1,
-    courseId: 5
-  },
-  2: {
-    id: 2,
-    'description': 'Building Your First  Component - Component Composition',
-    'duration': '2:07',
-    'seqNo': 2,
-    courseId: 5
-  },
-  3: {
-    id: 3,
-    'description': 'Component @Input - How To Pass Input Data To an  Component',
-    'duration': '2:33',
-    'seqNo': 3,
-    courseId: 5
-  },
-  4: {
-    id: 4,
-    'description': ' Component Events - Using @Output to create custom events',
-    'duration': '4:44',
-    'seqNo': 4,
-    courseId: 5
-  },
-  5: {
-    id: 5,
-    'description': ' Component Templates - Inline Vs External',
-    'duration': '2:55',
-    'seqNo': 5,
-    courseId: 5
-  },
-  6: {
-    id: 6,
-    'description': 'Styling  Components - Learn About Component Style Isolation',
-    'duration': '3:27',
-    'seqNo': 6,
-    courseId: 5
-  },
-  7: {
-    id: 7,
-    'description': ' Component Interaction - Extended Components Example',
-    'duration': '9:22',
-    'seqNo': 7,
-    courseId: 5
-  },
-  8: {
-    id: 8,
-    'description': ' Components Tutorial For Beginners - Components Exercise !',
-    'duration': '1:26',
-    'seqNo': 8,
-    courseId: 5
-  },
-  9: {
-    id: 9,
-    'description': ' Components Tutorial For Beginners - Components Exercise Solution Inside',
-    'duration': '2:08',
-    'seqNo': 9,
-    courseId: 5
-  },
-  10: {
-    id: 10,
-    'description': ' Directives - Inputs, Output Event Emitters and How To Export Template References',
-    'duration': '4:01',
-    'seqNo': 10,
-    courseId: 5
-  },
 
 
-  // Security Course
+
+  // Cinnamon Rolls
   11: {
     id: 11,
-    'description': 'Course Helicopter View',
+    'description': 'Ingredients',
     'duration': '08:19',
     'seqNo': 1,
     courseId: 6
@@ -248,7 +108,7 @@ export const LESSONS = {
 
   12: {
     id: 12,
-    'description': 'Installing Git, Node, NPM and Choosing an IDE',
+    'description': 'Making the dough',
     'duration': '04:17',
     'seqNo': 2,
     courseId: 6
@@ -256,7 +116,7 @@ export const LESSONS = {
 
   13: {
     id: 13,
-    'description': 'Installing The Lessons Code - Learn Why Its Essential To Use NPM 5',
+    'description': 'Getting ready to heat it up',
     'duration': '06:05',
     'seqNo': 3,
     courseId: 6
@@ -264,7 +124,7 @@ export const LESSONS = {
 
   14: {
     id: 14,
-    'description': 'How To Run Node In TypeScript With Hot Reloading',
+    'description': 'Cuttin the dough and spacing',
     'duration': '03:57',
     'seqNo': 4,
     courseId: 6
@@ -272,81 +132,53 @@ export const LESSONS = {
 
   15: {
     id: 15,
-    'description': 'Guided Tour Of The Sample Application',
+    'description': 'Preparing the sauce',
     'duration': '06:00',
     'seqNo': 5,
     courseId: 6
   },
   16: {
     id: 16,
-    'description': 'Client Side Authentication Service - API Design',
+    'description': 'Glazing the rolls with the sauce',
     'duration': '04:53',
     'seqNo': 6,
     courseId: 6
   },
   17: {
     id: 17,
-    'description': 'Client Authentication Service - Design and Implementation',
+    'description': 'Serving techniques',
     'duration': '09:14',
     'seqNo': 7,
     courseId: 6
   },
-  18: {
-    id: 18,
-    'description': 'The New Angular HTTP Client - Doing a POST Call To The Server',
-    'duration': '06:08',
-    'seqNo': 8,
-    courseId: 6
-  },
-  19: {
-    id: 19,
-    'description': 'User Sign Up Server-Side Implementation in Express',
-    'duration': '08:50',
-    'seqNo': 9,
-    courseId: 6
-  },
-  20: {
-    id: 20,
-    'description': 'Introduction To Cryptographic Hashes - A Running Demo',
-    'duration': '05:46',
-    'seqNo': 10,
-    courseId: 6
-  },
-  21: {
-    id: 21,
-    'description': 'Some Interesting Properties Of Hashing Functions - Validating Passwords',
-    'duration': '06:31',
-    'seqNo': 11,
-    courseId: 6
-  },
 
 
-  // PWA course
+  // Beef Wellington
 
   22: {
     id: 22,
-    'description': 'Course Kick-Off - Install Node, NPM, IDE And Service Workers Section Code',
+    'description': 'Ingredients',
     'duration': '07:19',
     'seqNo': 1,
     courseId: 7
   },
   23: {
     id: 23,
-    'description': 'Service Workers In a Nutshell - Service Worker Registration',
+    'description': 'Beef selection',
     'duration': '6:59',
     'seqNo': 2,
     courseId: 7
   },
   24: {
     id: 24,
-    'description': 'Service Workers Hello World - Lifecycle Part 1 and PWA Chrome Dev Tools',
+    'description': 'Buttering and mushrooms',
     'duration': '7:28',
     'seqNo': 3,
     courseId: 7
   },
   25: {
     id: 25,
-    'description': 'Service Workers and Application Versioning - Install & Activate Lifecycle Phases',
+    'description': 'Spices preparation and cooking',
     'duration': '10:17',
     'seqNo': 4,
     courseId: 7
@@ -354,38 +186,38 @@ export const LESSONS = {
 
   26: {
     id: 26,
-    'description': 'Downloading The Offline Page - The Service Worker Installation Phase',
+    'description': 'Tortilla jacket rolling',
     'duration': '09:50',
     'seqNo': 5,
     courseId: 7
   },
   27: {
     id: 27,
-    'description': 'Introduction to the Cache Storage PWA API',
+    'description': 'Heating it up',
     'duration': '04:44',
     'seqNo': 6,
     courseId: 7
   },
   28: {
     id: 28,
-    'description': 'View Service Workers HTTP Interception Features In Action',
+    'description': 'Resting and tips',
     'duration': '06:07',
     'seqNo': 7,
     courseId: 7
   },
   29: {
     id: 29,
-    'description': 'Service Workers Error Handling - Serving The Offline Page',
+    'description': 'Serving techniques',
     'duration': '5:38',
     'seqNo': 8,
     courseId: 7
   },
 
-  // Serverless Angular with Firebase Course
+  // Perfect Fried Eggs
 
   30: {
     id: 30,
-    description: 'Development Environment Setup',
+    description: 'Is frying eggs that easy? Debunking myths',
     'duration': '5:38',
     'seqNo': 1,
     courseId: 1
@@ -393,7 +225,7 @@ export const LESSONS = {
 
   31: {
     id: 31,
-    description: 'Introduction to the Firebase Ecosystem',
+    description: 'Frying our eggs',
     'duration': '5:12',
     'seqNo': 2,
     courseId: 1
@@ -401,7 +233,7 @@ export const LESSONS = {
 
   32: {
     id: 32,
-    description: 'Importing Data into Firestore',
+    description: 'Buttering pasting',
     'duration': '4:07',
     'seqNo': 3,
     courseId: 1
@@ -409,15 +241,15 @@ export const LESSONS = {
 
   33: {
     id: 33,
-    description: 'Firestore Documents in Detail',
-    'duration': '7:32',
+    description: 'Serving',
+    'duration': '2:32',
     'seqNo': 4,
     courseId: 1
   },
 
   34: {
     id: 34,
-    description: 'Firestore Collections in Detail',
+    description: 'Lets take it a step further',
     'duration': '6:28',
     'seqNo': 5,
     courseId: 1
@@ -425,7 +257,7 @@ export const LESSONS = {
 
   35: {
     id: 35,
-    description: 'Firestore Unique Identifiers',
+    description: 'Prosciutto and Bagel',
     'duration': '4:38',
     'seqNo': 6,
     courseId: 1
@@ -433,7 +265,7 @@ export const LESSONS = {
 
   36: {
     id: 36,
-    description: 'Querying Firestore Collections',
+    description: 'Black truffle grating',
     'duration': '7:54',
     'seqNo': 7,
     courseId: 1
@@ -441,110 +273,12 @@ export const LESSONS = {
 
   37: {
     id: 37,
-    description: 'Firebase Security Rules In Detail',
+    description: 'Serving tips',
     'duration': '5:31',
     'seqNo': 8,
     courseId: 1
-  },
-
-  38: {
-    id: 38,
-    description: 'Firebase Cloud Functions In Detail',
-    'duration': '8:19',
-    'seqNo': 9,
-    courseId: 1
-  },
-
-  39: {
-    id: 39,
-    description: 'Firebase Storage In Detail',
-    'duration': '7:05',
-    'seqNo': 10,
-    courseId: 1
-  },
-
-
-  // Angular Testing Course
-
-  40: {
-    id: 40,
-    description: 'Angular Testing Course - Helicopter View',
-    'duration': '5:38',
-    'seqNo': 1,
-    courseId: 12
-  },
-
-  41: {
-    id: 41,
-    description: 'Setting Up the Development Environment',
-    'duration': '5:12',
-    'seqNo': 2,
-    courseId: 12
-  },
-
-  42: {
-    id: 42,
-    description: 'Introduction to Jasmine, Spies and specs',
-    'duration': '4:07',
-    'seqNo': 3,
-    courseId: 12
-  },
-
-  43: {
-    id: 43,
-    description: 'Introduction to Service Testing',
-    'duration': '7:32',
-    'seqNo': 4,
-    courseId: 12
-  },
-
-  44: {
-    id: 44,
-    description: 'Settting up the Angular TestBed',
-    'duration': '6:28',
-    'seqNo': 5,
-    courseId: 12
-  },
-
-  45: {
-    id: 45,
-    description: 'Mocking Angular HTTP requests',
-    'duration': '4:38',
-    'seqNo': 6,
-    courseId: 12
-  },
-
-  46: {
-    id: 46,
-    description: 'Simulating Failing HTTP Requests',
-    'duration': '7:54',
-    'seqNo': 7,
-    courseId: 12
-  },
-
-  47: {
-    id: 47,
-    description: 'Introduction to Angular Component Testing',
-    'duration': '5:31',
-    'seqNo': 8,
-    courseId: 12
-  },
-
-  48: {
-    id: 48,
-    description: 'Testing Angular Components without the DOM',
-    'duration': '8:19',
-    'seqNo': 9,
-    courseId: 12
-  },
-
-  49: {
-    id: 49,
-    description: 'Testing Angular Components with the DOM',
-    'duration': '7:05',
-    'seqNo': 10,
-    courseId: 12
   }
+
 
 
 };
