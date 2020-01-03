@@ -1,12 +1,12 @@
 {
-  "id": 12,
+  "id": 2,
   "titles": {
-    "description": "Angular Testing Course",
-    "longDescription": "In-depth guide to Unit Testing and E2E Testing of Angular Applications"
+    "description": "Pasta Carbonara",
+    "longDescription": "Discover how to make superb spaghetti carbonara. This cheesy pasta dish is an Italian favourite and with the right technique, you can make it perfect every time"
   },
-  "iconUrl": "https://s3-us-west-1.amazonaws.com/angular-university/course-images/angular-testing-small.png",
+  "iconUrl": "https://www.eatwell.co.nz/images/recipes/21082011HOSSpaghettiCarbonara.jpg?width=603&height=339&mode=crop&upscale=false",
+  "lessonsCount": 10,
   "category": "BEGINNER",
-  "seqNo": 0,
-  "url": "angular-testing-course",
-  "lessonsCount": 10
+  "seqNo": 1,
+  "url": "pasta-carbonara"
 }

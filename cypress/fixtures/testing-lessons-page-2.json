@@ -2,24 +2,24 @@
   "payload": [
     {
       "id": 43,
-      "description": "Introduction to Service Testing",
+      "description": "Sauce Ingredients",
       "duration": "7:32",
       "seqNo": 4,
-      "courseId": 12
+      "courseId": 2
     },
     {
       "id": 44,
-      "description": "Settting up the Angular TestBed",
+      "description": "Making the carbonara sauce",
       "duration": "6:28",
       "seqNo": 5,
-      "courseId": 12
+      "courseId": 2
     },
     {
       "id": 45,
-      "description": "Mocking Angular HTTP requests",
+      "description": "Dish presentation",
       "duration": "4:38",
       "seqNo": 6,
-      "courseId": 12
+      "courseId": 2
     }
   ]
 }
