@@ -2,12 +2,13 @@
 describe('Home Page', () => {
 
   beforeEach(() => {
+    cy.pause();
 
     cy.fixture('courses.json').as("coursesJSON");
 
-    cy.server();
+    cy.server(); //Used to intercept API calls in the browser
 
-    cy.route('/api/courses', "@coursesJSON").as("courses");
+    cy.route('/api/courses', "@coursesJSON").as("courses"); //Deterministic, loads the same everytime
 
     cy.visit('/');
 
@@ -25,7 +26,7 @@ describe('Home Page', () => {
 
   it('should display the advanced courses', () => {
 
-    cy.get('.mat-tab-label').should("have.length", 2);
+    cy.get('.mat-tab-label').should("have.length", 3);
 
     cy.get('.mat-tab-label').last().click();
 
